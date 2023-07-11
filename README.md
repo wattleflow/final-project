@@ -1,23 +1,20 @@
-# Pozadina
+# Background
 
-Raspolozivi podaci na US [data.gov](https://catalog.data.gov/dataset) sadrzavaju razne tabele. 
-Povrsni pregled kataloga ukazuje na mogucnost kombinacije podataka objavljenih od strane grada `New York-a`. 
+The available data on US [data.gov](https://catalog.data.gov/dataset) contains various tables. A review of the catalog indicates the possibility of combining data published by the New York Police Department (NYPD) using their CompStat software, known for the "Broken Windows" theory.
 
-Primjerice, [demografska statistika](https://catalog.data.gov/dataset/demographic-statistics-by-zip-code) i
-[GiS Naselja](https://catalog.data.gov/dataset/neighborhood-names-gis) sa [kriminalom iz mrznje](https://catalog.data.gov/dataset/nypd-hate-crimes) te gdje su se dogadjala
-[hapsenja](https://catalog.data.gov/dataset/nypd-arrest-data-year-to-date).
+For example, the recorded [GiS locations](https://catalog.data.gov/dataset/neighborhood-names-gis) of shooting incidents, 911 calls, and the [location of arrested](https://catalog.data.gov/dataset/nypd-arrest-data-year-to-date) criminals in New York neighborhoods.
 
-Vjerovatnost je da se ovi podaci mogu kombinirati, za sto je neophodno napraviti data model. 
-Dalje, ove podatke je moguce objediniti u graph bazu podatka, te je takve dalje moguce pretociti u vizualni dashboard. 
-Za ovo je preporucljivo koristiti Cloud platformu sa podrskom za mape, poput Google ili Azure (Bing).
+It is likely that these data can be combined, but it requires a detailed analysis to create a valid data model. Furthermore, these data can be visually represented through maps, dashboards, or scatter plot graphs. The data can also be integrated into a graph database.
 
-# Planiranje
-1. Opensource potraga
-2. Analize podataka
-3. Izrada dags modela
-4. Izrada star modela 
+For analysis, tools like Docker with Apache Airflow and a PostgresSQL database can be used. As for the final solution, a cloud platform that supports working with maps, such as Google or Azure (Bing), can be utilized.
 
-## 1. Opensource potraga
+# Planning
+1. Opensource research
+2. Data analysis
+3. Developing dags model
+4. Developing star model 
+
+## 1. Opensource search
 1. [Neighbourhoods](https://catalog.data.gov/dataset/neighborhood-names-gis/resource/187b8e9e-2a76-42b4-8253-f3a0be0169e7)
 2. [Mental-health](https://catalog.data.gov/dataset/mental-health-care-in-the-last-4-weeks/resource/803b3b82-0f92-43d8-a146-46d2307cc2e9)
 3. [Demographics](https://catalog.data.gov/dataset/demographic-statistics-by-zip-code/resource/d32826e6-db5c-4a24-9930-1693947e4e1f)
