@@ -1,6 +1,6 @@
 # Background
 
-The available data on US [data.gov](https://catalog.data.gov/dataset) contains various tables. A review of the catalog indicates the possibility of combining data published by the New York Police Department (NYPD) using their CompStat software, known for the "Broken Windows" theory.
+The available data on US [data.gov](https://catalog.data.gov/dataset) contains various tables. A review of the catalog indicates the possibility of combining data published by the New York Police Department (NYPD) fron their CompStat software, known for the "Broken Windows" theory.
 
 For example, the recorded [GiS locations](https://catalog.data.gov/dataset/neighborhood-names-gis) of shooting incidents, 911 calls, and the [location of arrested](https://catalog.data.gov/dataset/nypd-arrest-data-year-to-date) criminals in New York neighborhoods.
 
