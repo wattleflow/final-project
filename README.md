@@ -29,20 +29,18 @@ For analysis, tools like Docker with Apache Airflow and a PostgresSQL database c
 12. [Post Office](https://catalog.data.gov/dataset/post-office/resource/4f6b4fbd-3e07-444a-ad9a-851ea18828f7)
 13. [Covid19](https://data.cityofnewyork.us/api/views/rc75-m7u3/rows.csv?accessType=DOWNLOAD)
 
-## 2. Analize podataka
-- NYPD Calls (8) je najveca tablica sa skoro 2M zapisa
-- Ova tablica centralna je za zadatak
-- Tablica sadrzava nekoliko podataka za povezivanje:
-  - 
+## 2. Data Analysis
+- NYPD Calls (8) is bigest dataset with arround 2M records
+- This table will be central for the project
 
-# Izrada modela
-- Izrada Airflow pipelines i testiranje
-- Odluka o arhitekturi i platformi
-- Testiranje rada platforme
-- Testiranje pipelines
-- Izrada dokumentacije
+# Developing models
+- Developing and testing Airflow pipelines
+- Decision on architecture and tools
+- Configuring and testing working environment
+- Testing pipelines
+- Docimenting work
 
-# Dodatni reursi
+# Additional resources
 - https://github.com/san089/goodreads_etl_pipeline
 - https://github.com/san089/Udacity-Data-Engineering-Projects
 - https://catalog.data.gov/dataset/mental-health-care-in-the-last-4-weeks
