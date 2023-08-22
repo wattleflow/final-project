@@ -4,7 +4,7 @@ The available data on US [data.gov](https://catalog.data.gov/dataset) contains v
 
 For example, the recorded [GiS locations](https://catalog.data.gov/dataset/neighborhood-names-gis) of shooting incidents, 911 calls, and the [location of arrested](https://catalog.data.gov/dataset/nypd-arrest-data-year-to-date) criminals in New York neighborhoods.
 
-It is likely that these data can be combined, but it requires a detailed analysis to create a valid data model. Furthermore, these data can be visually represented through maps, dashboards, or scatter plot graphs. The data can also be integrated into a graph database.
+It is likely that these data can be combined, but it requires a detailed analysis to create a valid data model. Furthermore, these data can be visually represented through maps and dashboards or graphs. The data can also be integrated into a graph database.
 
 For analysis, tools like Docker with Apache Airflow and a PostgresSQL database can be used. As for the final solution, a cloud platform that supports working with maps, such as Google or Azure (Bing), can be utilized.
 
